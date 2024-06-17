@@ -3,11 +3,13 @@ package com.sparta.newspeed.user.dto;
 import com.sparta.newspeed.user.entity.User;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Getter
 public class UserInfoUpdateDto {
     @Schema(description = "유저명")
