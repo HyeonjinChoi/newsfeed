@@ -53,6 +53,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	// Fixture Monkey
 	testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter:0.3.2")
+	// Security Test
+	testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {

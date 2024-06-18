@@ -1,9 +1,7 @@
 package com.sparta.newspeed.newsfeed.entity;
 
-import com.sparta.newspeed.comment.dto.CommentRequestDto;
 import com.sparta.newspeed.newsfeed.dto.NewsfeedRequestDto;
 import com.sparta.newspeed.user.entity.User;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

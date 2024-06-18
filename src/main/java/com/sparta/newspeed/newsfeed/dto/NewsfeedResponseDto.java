@@ -1,9 +1,15 @@
 package com.sparta.newspeed.newsfeed.dto;
 
 import com.sparta.newspeed.newsfeed.entity.Newsfeed;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class NewsfeedResponseDto {
 
     private Long newsFeedSeq;
